@@ -1,0 +1,39 @@
+
+
+
+body{
+    height: 100%;
+    font-size: 15px;
+}
+
+.swiper{
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slid{
+    text-align: center;
+    font-size: 18px;
+    background: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slid img{
+    width: 58%;
+    object-fit: cover;
+}
+
+.swiper-button-next .swiper-rtl .swiper-button-prev{
+    right: 140px !important;
+    left: auto;
+}
+
+.swiper-button-prev .swiper-rtl .swiper-button-next .swiper-button-prev{
+    left: 140px !important;
+    right: auto;
+}
+
+
+
